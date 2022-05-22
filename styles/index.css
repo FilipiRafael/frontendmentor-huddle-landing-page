@@ -276,3 +276,83 @@ footer ul li:hover {
         margin: 0 2rem;
     }
 }
+
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        background-image: url('../images/bg-mobile.svg');
+        background-size: cover;
+    }
+
+    body nav {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    body nav img {
+        width: 180px;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    main section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    section .banner img {
+        width: 320px;
+    }
+
+    section .informations {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 1rem;
+    }
+
+    section .informations h1 {
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        text-align: center;
+    }
+
+    section .informations span {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    section .informations button {
+        margin: 2.5rem 0;
+        padding: 1.2rem 4rem;
+    }
+
+    body footer {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    body footer ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer ul li {
+        font-size: 2.5rem;
+        margin: 0 2rem;
+    }
+}
